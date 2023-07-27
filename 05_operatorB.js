@@ -32,7 +32,6 @@ var wordLength = function(word){
 
     return word.length % 2 === 0 ? `The length of ${word} is: "Even"` : `The length of word ${word} is: "Odd"` ;
 
-
 };
 
 console.log(wordLength("Javascript"));
