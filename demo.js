@@ -63,8 +63,48 @@
 // console.log("Result is:", res);
 
 
-console.log(`------------------------------------`);
-var greet = "      Good Morning      ";
-var result = greet.trim();
-console.log(`Before Trim String length : ${greet.length}, After Trim string is ${result} and it's length is ${result.length}`);
+// console.log(`------------------------------------`);
+// var greet = "      Good Morning      ";
+// var result = greet.trim();
+// console.log(`Before Trim String length : ${greet.length}, After Trim string is ${result} and it's length is ${result.length}`);
+
+// var result;
+
+
+// function strString(stringAs) {
+    
+//     if (stringAs.startsWith("Java")) {
+//         console.log(`The Given String "${stringAs}"  starts with word Java`);
+//     } else {
+//         console.log(`The Given word dosnt start with word Java`);
+//     }
+// }
+
+// strString("JavaScript Language");
+// strString("Python Language");
+
+
+var leapYear = function (year)
+{
+    if (isNaN(year) || typeof year !== 'number')
+    {
+       console.log(`"${year}" is Invalid input`);
+       
+    }
+   else if (year % 4 == 0 || year % 100 == 0 || year % 400 == 0)
+    {
+         console.log(`"${year}" year is leap year`);   
+    } 
+    else {
+        console.log(`"${year}" year is Normal year`);  
+    }
+    
+}
+leapYear(2020);
+leapYear(1999);
+leapYear(1600);
+leapYear(2022);
+leapYear(1945);
+leapYear(undefined);
+leapYear(null);
 
