@@ -6,7 +6,7 @@ var leapYear = function(year){
         console.log(`${year} Is a Invalid Input --> Please Give the valid Inputs`);
     }
 
-    else if((year % 4 == 0) || (year % 100 == 0) || (year % 400 == 0)){
+    else if((year % 4 == 0) || (year % 100 !== 0) && (year % 400 == 0)){
         console.log(`"${year}" is a Leap Year`);
     }
 
@@ -27,4 +27,5 @@ leapYear("Twenty Twenty");
 leapYear(undefined);
 leapYear(NaN);
 leapYear(1750);
+leapYear("2020");
 
