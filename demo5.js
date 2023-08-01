@@ -11,10 +11,11 @@
 // var charLast = str.charAt(strLength-1);
 // console.log(` Last Character is ${charLast} of index value is: ${strLength}`);
 
-var num = 100;
-console.log(num);
-var display = function(){
-    console.log(`I am Angular Developer !`);
-}
-display();
-console.log(typeof display);
+// var num = 100;
+// console.log(num);
+// var display = function(){
+//     console.log(`I am Angular Developer !`);
+// }
+// display();
+// console.log(typeof display);
+
