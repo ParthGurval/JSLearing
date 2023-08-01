@@ -10,13 +10,14 @@ console.log('');
 
 function reverseString(str){
 
-    let res2 = "";
+    let res2 = ""; // Initialize an empty string to store the reversed characters
+
     for (let index = str.length-1; index >= 0; index--) {
         
         const res1 = str.charAt(index);
         
         if (res1 !== ' ') {
-            res2 += res1;    
+            res2 += res1;  // Concatenate the character to the reversedStr   
         }
     }
 

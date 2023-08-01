@@ -13,7 +13,7 @@ console.log('');
 let vowelCheck = function (str) {
     
     let count = 0;
-    let vowelspc = [];
+    let vowelspc = []; // Initialize an empty array to store the vowels
     for (let index = 0; index < str.length; index++) {
         
         const char = str.charAt(index);
@@ -22,12 +22,12 @@ let vowelCheck = function (str) {
            char == 'A' || char == 'E' || char == 'I' || char == 'O' || char == 'U'){
         
             // console.log(char);
-            vowelspc.push(char)
+            vowelspc.push(char) // Push the vowel into the vowels array
             count = count + 1;
             // console.log(`-------------------------------------`);
            }
     }
-    console.log(`The vowels in string are: ${vowelspc.join(', ')}`);
+    console.log(`The vowels in string are: ${vowelspc.join(', ')}`); // Print the vowels in a horizontal line with comma separation
     console.log(`Total Number of Count is ${count}`);
 }
 
@@ -54,7 +54,7 @@ let vowelCheck2 = function (str2) {
         if (char == 'a' || char == 'e' || char == 'i' || char == 'o' || char == 'u' ||
         char == 'A' || char == 'E' || char == 'I' || char == 'O' || char == 'U') {
             
-            vowSpc.push(char);
+            vowSpc.push(char); // Push the vowel into the vowels array
             count = count + 1;
         }  
 
@@ -144,6 +144,7 @@ function oddPositionedChars(str1){
         
         const res2 = str1.charAt(index);
 
+        // Check if the current index is odd (index % 2 === 1) and the character is not an empty space
         if(index % 2 == 1 && res2 !== ' '){
             console.log(`The Character at odd Poition Number ${index} is: ${res2}`);
             console.log(`--------------------------------------------------`);
