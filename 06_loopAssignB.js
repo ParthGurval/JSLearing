@@ -8,6 +8,7 @@ console.log('');
 console.log(`------------------------ Using For Loop ----------------------------`);
 console.log('');
 
+
 function reverseString(str){
 
     let res2 = ""; // Initialize an empty string to store the reversed characters

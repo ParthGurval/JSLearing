@@ -92,7 +92,7 @@ let cubeOfNumbers = function (){
     let sumOfCube = 0;
     for (let index = 1; index <=5; index++) {
 
-        const res1 = index * index * index;
+        const res1 = index * index * index; // 1*1*1+2*2*2+/..
 
         sumOfCube = sumOfCube + res1;
 
@@ -144,7 +144,7 @@ function oddPositionedChars(str1){
         
         const res2 = str1.charAt(index);
 
-        // Check if the current index is odd (index % 2 === 1) and the character is not an empty space
+        // Check if the current index is odd (index % 2 !== 0) and the character is not an empty space
         if(index % 2 == 1 && res2 !== ' '){
             console.log(`The Character at odd Poition Number ${index} is: ${res2}`);
             console.log(`--------------------------------------------------`);
