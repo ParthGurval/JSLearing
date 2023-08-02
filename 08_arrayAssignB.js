@@ -73,12 +73,13 @@ const evenPosNumbers = [];
 let evenSum = 0;
 
 for (let i = 0; i < arrayNumbers.length; i++) {
-  if (arrayNumbers[i] % 2 === 0) {
+  if (i % 2 === 0) {
     evenPosNumbers.push(arrayNumbers[i]);
    
     evenSum += arrayNumbers[i];   // evenSum = evenSum + arrayNumbers[i];
   }
 }
+console.log(arrayNumbers);
 console.log(`The even element are "${evenPosNumbers.join(', ')}"`);
 console.log(`Sum of All the even numbers is: ${evenSum}`);
 
@@ -93,13 +94,13 @@ let oddSum = 0;
 
 for (let i = 0; i < arrayNumbers.length; i++) {
     
-    if (arrayNumbers[i] % 2 !== 0) {
+    if (i % 2 !== 0) {
         oddPosNumbers.push(arrayNumbers[i]);
 
         oddSum += arrayNumbers[i]; // oddSum = oddSum + arrayNumber[i];
     }
 }
-
+console.log(arrayNumbers);
 console.log(`The Odd Numbers are: "${oddPosNumbers.join(', ')}"`);
 console.log(`Sum of All the Odd Numbers is: ${oddSum}`);
 
