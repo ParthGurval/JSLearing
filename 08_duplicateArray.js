@@ -21,3 +21,31 @@ function removeDuplicate(arr) {
 let res = removeDuplicate(arrayDuplication);
 console.log(`After Removing Duplicate elements from the array, It will be:`);
 console.log(res);
+
+
+
+
+
+
+
+
+
+
+
+let array = [4, 5, 4, 5, 8, 5, 7, 8, 9, 7, 8];
+
+function removeDuplicates(arr) {
+  let tempArray = [];
+
+  for (let i = 0; i < arr.length; i++) {
+    if (!tempArray.includes(arr[i])) {
+      tempArray.push(arr[i]);
+    }
+  }
+
+  return tempArray;
+}
+
+let result = removeDuplicates(array);
+
+console.log(result);
