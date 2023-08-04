@@ -84,27 +84,115 @@
 // strString("Python Language");
 
 
-var leapYear = function (year)
-{
-    if (isNaN(year) || typeof year !== 'number')
-    {
-       console.log(`"${year}" is Invalid input`);
+// var leapYear = function (year)
+// {
+//     if (isNaN(year) || typeof year !== 'number')
+//     {
+//        console.log(`"${year}" is Invalid input`);
        
-    }
-   else if (year % 4 == 0 || year % 100 == 0 || year % 400 == 0)
-    {
-         console.log(`"${year}" year is leap year`);   
-    } 
-    else {
-        console.log(`"${year}" year is Normal year`);  
-    }
+//     }
+//    else if (year % 4 == 0 || year % 100 == 0 || year % 400 == 0)
+//     {
+//          console.log(`"${year}" year is leap year`);   
+//     } 
+//     else {
+//         console.log(`"${year}" year is Normal year`);  
+//     }
     
-}
-leapYear(2020);
-leapYear(1999);
-leapYear(1600);
-leapYear(2022);
-leapYear(1945);
-leapYear(undefined);
-leapYear(null);
+// }
+// leapYear(2020);
+// leapYear(1999);
+// leapYear(1600);
+// leapYear(2022);
+// leapYear(1945);
+// leapYear(undefined);
+// leapYear(null);
 
+
+
+// User
+// let personGK = {
+//     empId: 2233,
+//     state: "MH",
+//     designation: "Tech Lead",
+//     city: "Pune",
+//     isMarried: true,
+//     show: function(){
+//         console.log(`Inside show function`);
+//     }
+// }
+// console.log(personGK);
+
+// console.log(typeof personGK);
+
+// console.log(`Emp Id: ${personGK.empId}`); // Dot Notation
+// console.log(`Emp city: ${personGK["city"]}`);
+
+// let isMarried = personGK.isMarried;
+// console.log(isMarried);
+
+// personGK.city = "Mumbai";
+// console.log(personGK);
+
+// delete personGK.designation;
+// console.log(personGK);
+
+// personGK.adharNumber = 123456781234;
+
+// personGK.show();
+
+// let array = [];
+
+// let bank = {
+//     bankName: "SBI Bank",
+//     accountNumber: 12345673,
+//     ifsc: "SBIN000567",
+//     address: {
+//         street: "Wakad Main Road",
+//         pin: 411057,
+//         landmark: "Near Petrol Pump",
+//         telPhone: "020-446789",
+//         city: "Pune",
+//         state: "MH",
+//         country : "India"
+//     }
+// }
+
+
+
+// console.log(bank.address.city);
+
+
+
+// let bank = {
+//     bankName: "SBI Bank",
+//     accountNumber: 12345673,
+//     ifsc: "SBIN000567",
+//     address: {
+//         street: "Wakad Main Road",
+//         pin: 411057,
+//         landmark: "Near Petrol Pump",
+//         telPhone: "020-446789",
+//         city: "Pune",
+//         state: "MH",
+//         country : "India"
+//     },
+//     empNames : ["Jenny", "Elon", "Warrren", "Stew"]
+// }
+
+// let city = bank.address.city;
+// bank.address.country = "Maharashtra";
+
+
+// let res= bank.empNames.pop();
+// console.log(res);
+
+
+const student = {
+
+
+    rollNumber: 11111,
+    city: "Pune",
+    College: "MIT"
+
+}
