@@ -1,38 +1,35 @@
 
-
-
-
 const professor = {
 
-    profName: "Sameer Patil",
-    profAge:  35,
-    profRelativeExperience: "5 Years",
-    profSalary: 600000,
-    profPost: "HOD of CSE",
-    
-    address: {
-        coutry: "India",
-        state:  "Maharashtra",
-        district: "Kolhapur",
-        area:   "Shalini Palace road, Rankala",
-        landmark: " near Ambai Tank Club",
-        pinCode: "416023",
-    },
+  profName: "Sameer Patil",
+  profAge:  35,
+  profRelativeExperience: "5 Years",
+  profSalary: 600000,
+  profPost: "HOD of CSE",
+  
+  address: {
+      coutry: "India",
+      state:  "Maharashtra",
+      district: "Kolhapur",
+      area:   "Shalini Palace road, Rankala",
+      landmark: " near Ambai Tank Club",
+      pinCode: "416023",
+  },
 
-    degrees: {
-        engineering: "CSE-B.E.",
-        masters: "Embedded Systems",
-        phd: "ADV Computing",
-        catExam: "AIR 98",
-        mba: "MBA Human Resource Management",
+  degrees: {
+      engineering: "CSE-B.E.",
+      masters: "Embedded Systems",
+      phd: "ADV Computing",
+      catExam: "AIR 98",
+      mba: "MBA Human Resource Management",
 
-        getDegree: function(){
+      getDegree: function(){
 
-           return `Teacher Degrees: ${this.engineering}, ${this.masters}, ${this.phd}, ${this.catExam}, ${this.mba},`
-        }
-    },
+         return `Teacher Degrees: ${this.engineering}, ${this.masters}, ${this.phd}, ${this.catExam}, ${this.mba},`
+      }
+  },
 
-    certificates: ["Hacker Rank Participation", "IFE Certificate", "Advance Programming in Python", "B.tech Degree", "Masters Degree", "PHD"],
+  certificates: ["Hacker Rank Participation", "IFE Certificate", "Advance Programming in Python", "B.tech Degree", "Masters Degree", "PHD"],
 
 } 
 console.log(`--------------------------- STEP-I --------------------------------`);

@@ -27,6 +27,13 @@ const axisBank = {
     
 }
 
+
+Object.freeze(axisBank);
+
+axisBank.location = "Pune";
+
+console.log(axisBank.location);
+
 const hdfcBank = {
     
     bankName: "HDFC Bank",

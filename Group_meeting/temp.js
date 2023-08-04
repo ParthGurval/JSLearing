@@ -1,40 +1,66 @@
 
 
-// let arrayDuplication = [4, 5, 4, 5, 8, 5, 7, 8, 9, 7, 8];
-
-// console.log("Given Array is: ", arrayDuplication);
-
-// function removeDuplicate(arr){
-
-// let tempArray = [];
-
-// for (const element of arr) {
-    
-//     if (!tempArray.includes(element)) {
-        
-//         tempArray.push(element);
-//     }
-
-// }
-
-//     return tempArray;
-
-// }
 
 
-// let res = removeDuplicate(arrayDuplication);
+const professor ={
 
-// console.log(`After Removing Duplicate Elements array will be:`);
+    profName: "Sameer Patil",
+    profAge: 40,
+    profContact: 956413254864,
+    profSalary: 600000,
+    profEmail: "Sammer@gmail.com",
 
-// console.log(res);
+    profDegree: {
 
-let anArray = [];
-let array = [4,5,4,5,8,5,7,8,9,7,8];
-for (const i of array) {
-    if (!anArray.includes(i)){
-        anArray.push(i)
-    }
+        ening: "CSE-B.tech",
+        mastegineerrs: "Embedded Systems",
+        phd: "Adv Computing System",
+        catExam: "AIR-98",
+
+        getDegree: function(){
+
+           return `Teacher Degrees: ${this.ening}, ${this.mastegineerrs}, ${this.phd}, ${this.catExam}`
+        }
+    },
+
+    certificate: ["Hacker Rank Participation", "IFE certification", "Adv python certification", "Degree", "PHD"], 
+
 }
-console.log(array);
-console.log(`After removing duplicate Values`);
-console.log(anArray);
+
+
+
+console.log(`--------------------------------- Step-I ---------------------------------------------------------`);
+
+console.log(professor);
+
+console.log(`--------------------------------- Step-I ---------------------------------------------------------`);
+
+console.log(professor.profDegree);
+
+console.log(`--------------------------------- Step-I ---------------------------------------------------------`);
+
+console.log(professor.profDegree.getDegree());
+
+console.log(`--------------------------------- Step-I ---------------------------------------------------------`);
+
+console.log(`The added value is: professor.totalExp: ${professor.totalExp= "14 Years"}`);
+console.log(professor);
+
+console.log(`--------------------------------- Step-I ---------------------------------------------------------`);
+
+professor.profSalary = 800000;
+console.log(`The changed value is: professor.profSalary ${professor.profSalary}`);
+console.log(professor);
+
+console.log(`--------------------------------- Step-I ---------------------------------------------------------`);
+
+professor.certificate.push("Oracle Certificate");
+console.log(professor.certificate);
+
+console.log(`--------------------------------- Step-I ---------------------------------------------------------`);
+
+console.log(professor.certificate.slice(-1)[0]);
+
+console.log('');
+
+console.log(professor.certificate[professor.certificate.length-1]);
