@@ -1,73 +1,66 @@
 
-// let year = 2000
-
-// var dayYearCount = function (month) {
-
-//     switch (month) {
-//         //For month of 31 days 
-//         case 1:
-//         case 3:
-//         case 5:
-//         case 7:
-//         case 8:
-//         case 10:
-//         case 12:
-
-//             dayCount = 31;
-//             break;
-
-//         //For month of 30 days 
-//         case 4:
-//         case 6:
-//         case 9:
-//         case 11:
-
-//             dayCount = 30;
-//             break;
-
-//         //For Leap Year
-//         case 2:
-//             if((year % 4 == 0 && !(year % 100 == 0) || year % 400 == 0)){
-//                 dayCount = 29;
-//             }
-//             break;
-        
-    
-//         default:
-//             dayCount = -1  //here -1 is a Invalid Input
-//             break;
-//     }
-
-//     console.log(dayCount);
-
-// }
-
-// dayYearCount(12);
-// console.log('');
-// dayYearCount(2);
-// console.log('');
-// dayYearCount(5);
-// console.log('');
-// dayYearCount(4);
-// console.log('');
-// dayYearCount(null);
-// console.log('');
-// dayYearCount("One");
-// console.log('');
-// dayYearCount(-12);
+console.log(`******************************* TASK-II *************************************`);
 
 
+class college {
 
+    collegeName
+    collegeType
+    collegeLocation
+    totalNumberOfStudents
 
+    constructor(clgName, clgType, clgLocation, studNumbers){
 
-for(let index = array.length-1; index = 0; index--){
-    
-    if (index % 2 == 0) {
-        const ele = array[index];  //or
-        console.log(ele);    
+        this.collegeName = clgName;
+        this.collegeType = clgType;
+        this.collegeLocation = clgLocation
+        this.totalNumberOfStudents = studNumbers;
     }
-    
-    
 
-    
+    displayCollege(){
+
+        console.log(`The College Details are as follows: 
+                    College Name: ${this.collegeName}, College Type/ University: ${this.collegeType},
+                    College Location: ${this.collegeLocation}, College Total Number Of Students: ${this.totalNumberOfStudents}`);
+                    
+                    console.log(`-----------------------------------------------------------------------------------------------------`);
+    }
 }
+
+let college1 = new college("KITS College", "Engineering Autonomus", "Kolhapur", 20000);
+// console.log(college1);
+college1.displayCollege();
+
+let college2 = new college("MIT", "Engineering Autonomus", "USA", 150000);
+// console.log(college2);
+college2.displayCollege();
+
+let college3 = new college("Cambridge", "Engineering College, Autonomus University", "UK", 120000);
+// console.log(college3);
+college3.displayCollege();
+
+console.log('');
+
+
+
+
+console.log(`******************************* TASK-II *************************************`);
+
+
+function traverseObject(collegeObj){
+
+    for (const college in collegeObj) {
+        if (Object.hasOwnProperty.call(collegeObj, college)) {
+            const element = collegeObj[college];
+
+            console.log(`The Given College Details: ${college} ==> ${element} `);
+            
+        }
+    }
+
+    console.log(`-------------------------------------------------------------------------------`);
+}
+
+traverseObject(college1);
+traverseObject(college2);
+traverseObject(college3)
