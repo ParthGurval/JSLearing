@@ -115,6 +115,14 @@ function traverseObject(collegeObj) {
     console.log(`-------------------------------------------------------`);
 }
 
+
+for (const key in object) {
+    if (Object.hasOwnProperty.call(object, key)) {
+        const element = object[key];
+        
+    }
+}
+
 traverseObject(college1);
 traverseObject(college2);
 traverseObject(college3);

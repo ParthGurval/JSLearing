@@ -3,14 +3,15 @@
 const person = {
 
     name: "Satya",
-    age: 50,
+    age: 39,
     city: "Pune"
 };
 
-for (const key of person) {
+for (const key in person) {
     
     console.log(`${key}==> ${person[key]}`);
 }
+
 
 
 
