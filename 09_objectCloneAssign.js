@@ -18,6 +18,8 @@ console.log(`Updated Cloned array=> arrayShallow:}`);
 console.log(arrayShallow);
 
 console.log('');
+console.log("********************************************8");
+console.log(arrayNum);
 
 console.log(`---------------------------- STEP-II ------------------------------------`);
 
