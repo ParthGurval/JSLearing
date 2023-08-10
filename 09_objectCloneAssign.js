@@ -32,7 +32,7 @@ console.log(deepCloneArray);
 arrayNum.push(10, 25);
 console.log(`Updated Original array=> arrayNum`);
 console.log(arrayNum);
-
+console.log(deepCloneArray);
 console.log('');
 
 console.log(`---------------------------- STEP-III ------------------------------------`);
