@@ -15,7 +15,7 @@ let personOne = `{
         "country": "Austria"
     },
     "reffered-by": "E0012"
-}`
+}`;
 
 // console.log(`Given Object is: `, personOne);
 console.log(`Type of Object personOne: `, typeof personOne);
@@ -51,9 +51,15 @@ console.log(perLastName);
 console.log(`------------------------------------------------------------------`);
  
 
-let joinDate = new Date(conrtPerson.doj) // convert the string to date form
+let joinDate = new Date(conrtPerson.doj) // convert the string to date form  "doj": "11-12-2019",
+
+console.log(joinDate);
 
 const joinYear = joinDate.getFullYear(); // use getFullYear to access only year
 
 console.log(`Joining Year Date is: `, joinYear);
+
+
+
+
 
