@@ -1,21 +1,27 @@
-function reverseString(str){
+// function reverseString(str){
 
-    let res2 = ""; // Initialize an empty string to store the reversed characters
+//     let res2 = ""; // Initialize an empty string to store the reversed characters
 
-    for (let index = str.length-1; index >= 0; index--) {
+//     for (let index = str.length-1; index >= 0; index--) {
         
-        const res1 = str.charAt(index);
+//         const res1 = str.charAt(index);
         
-        if (res1 !== ' ') {
-            res2 += res1;  // Concatenate the character to the reversedStr   
-        }
-    }
+//         if (res1 !== ' ') {
+//             res2 += res1;  // Concatenate the character to the reversedStr   
+//         }
+//     }
 
-    console.log(`The Given String is: "${str}" & It's Reverse String is:" ${res2}"`);
-}
+//     console.log(`The Given String is: "${str}" & It's Reverse String is:" ${res2}"`);
+// }
 
-console.log(`________________________ String No. 1_____________________________`);
-reverseString("Hard Work Always Pays Back");
-console.log(`________________________ String No. 2_____________________________`);
-reverseString("Soon I will be React Champ");
+// console.log(`________________________ String No. 1_____________________________`);
+// reverseString("Hard Work Always Pays Back");
+// console.log(`________________________ String No. 2_____________________________`);
+// reverseString("Soon I will be React Champ");
 
+
+let x = null;
+let y = 5;
+let result = x + y;  // Since x is null, the result will be NaN (Not-a-Number)
+
+console.log("Result:", result);

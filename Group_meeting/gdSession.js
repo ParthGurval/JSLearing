@@ -15,14 +15,14 @@
 
 // function declartion
 
-function addNums (a, b) {
+// function addNums (a, b) {
 
-    return a+b;
-}
+//     return a+b;
+// }
 
-let res1  = addNums(5, 3)
-// addNums(5, 3) //function call
-console.log(res1);
+// let res1  = addNums(5, 3)
+// // addNums(5, 3) //function call
+// console.log(res1);
 
 
 // function myName(a, b){
@@ -32,3 +32,25 @@ console.log(res1);
 // }
 
 // myName();
+
+class Car {
+    brand;
+    model;
+    
+    start() {
+      console.log(`${this.brand} ${this.model} is starting.`);
+    }
+    
+  }
+  
+  const myCar = new Car();
+  myCar.brand = 'Toyota';
+  myCar.model = 'Camry';
+  
+  const anotherCar = new Car();
+  anotherCar.brand = 'Honda';
+  anotherCar.model = 'Civic';
+  
+  myCar.start(); // Output: Toyota Camry is starting.
+anotherCar.start();
+  
