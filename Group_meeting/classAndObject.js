@@ -18,6 +18,8 @@ personCar.brand = 'Mercedes';
 personCar.model = 'G63';
 personCar.startCar();
 
+console.log(`-----------------------------------------------------`);
+
 personCar.brand = 'BMW';
 personCar.model = '3 Series';
 

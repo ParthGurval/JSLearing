@@ -10,6 +10,7 @@ class Circle extends Shape {
 
     area(){
 
+        console.log(`The area of the given shape:`);
         const radius = 5;
 
         const pi = 3.1415
@@ -23,8 +24,9 @@ class Rectangle extends Shape {
 
     area(){
 
+        console.log(`The area of the given shape:`);
         const width = 4;
-        const height = 8;
+        const height = 6;
         const reactAngleArea = width * height;
 
         return reactAngleArea;
@@ -43,8 +45,6 @@ const objRect = new Rectangle()
 
 console.log(calculateArea(objCircle));
 console.log(calculateArea(objRect));
-
-
 
 
 console.log(`======================================================================================================`);
