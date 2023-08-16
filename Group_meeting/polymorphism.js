@@ -17,6 +17,7 @@ class Circle extends Shape {
         const circleArea = pi * radius ** 2;
 
         return circleArea;
+        
     }
 }
 
@@ -44,7 +45,12 @@ const  objCircle = new Circle();
 const objRect = new Rectangle()
 
 console.log(calculateArea(objCircle));
+
+console.log('');
+
 console.log(calculateArea(objRect));
 
+// const shapeObj = new Shape();
+// console.log(shapeObj.area());
 
 console.log(`======================================================================================================`);

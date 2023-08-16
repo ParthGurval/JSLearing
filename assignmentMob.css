@@ -87,5 +87,5 @@
 .icon-sub:hover{
     background-color: #FFFB00;
     -webkit-background-clip: text;
-    color: transparent;
+    color: transparent; 
 }
