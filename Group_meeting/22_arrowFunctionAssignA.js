@@ -160,7 +160,35 @@ for (const empR of empArray) {
     }
 }
 
+// for in loop
 
+// for (const index in empArray) {
+//     const employee = empArray[index];
+//     if (employee.emp_name.startsWith("R")) {
+//         console.log("Employee Details:");
+//         console.log(`Employee ID: ${employee.emp_id}`);
+//         console.log(`Employee Name: ${employee.emp_name}`);
+//         console.log(`Employee Department: ${employee.emp_dept}`);
+//         console.log(`Employee Salary: ${employee.emp_salary}`);
+//         console.log(`Employee Company: ${employee.emp_company}`);
+//         console.log("----------------------");
+//     }
+// }
+
+
+// using arrow functiom
+
+// empArray.forEach(employee => {
+//     if (employee.emp_name.startsWith("R")) {
+//         console.log("Employee Details:");
+//         console.log(`Employee ID: ${employee.emp_id}`);
+//         console.log(`Employee Name: ${employee.emp_name}`);
+//         console.log(`Employee Department: ${employee.emp_dept}`);
+//         console.log(`Employee Salary: ${employee.emp_salary}`);
+//         console.log(`Employee Company: ${employee.emp_company}`);
+//         console.log("----------------------");
+//     }
+// });
 
 console.log(`-------------------- Step-IV-------------------------`);
 
@@ -172,6 +200,30 @@ for (const sal of empArray) {
     }
 }
 
+// for in
+
+// for (const index in empArray) {
+//     const employee = empArray[index];
+//     if (employee.emp_salary > 75000) {
+//         console.log(`Employee Name: ${employee.emp_name}`);
+//         console.log(`Company Name: ${employee.emp_company}`);
+//         console.log(`Salary: ${employee.emp_salary}`);
+//         console.log("----------------------");
+//     }
+// }
+
+
+// arrow funtn
+
+// empArray.forEach(employee => {
+//     if (employee.emp_salary > 75000) {
+//         console.log(`Employee Name: ${employee.emp_name}`);
+//         console.log(`Company Name: ${employee.emp_company}`);
+//         console.log(`Salary: ${employee.emp_salary}`);
+//         console.log("----------------------");
+//     }
+// });
+
 console.log(`-------------------- Step V ---------------------------`);
 
 for (const sal of empArray) {
@@ -182,6 +234,29 @@ for (const sal of empArray) {
     }
 }
 
+// for in 
+
+// for (const index in empArray) {
+//     const employee = empArray[index];
+//     if (employee.emp_salary >= 50000 && employee.emp_dept === "IT") {
+//         console.log(`Employee Name: ${employee.emp_name}`);
+//         console.log(`Company Name: ${employee.emp_company}`);
+//         console.log(`Salary: ${employee.emp_salary}`);
+//         console.log("----------------------");
+//     }
+// }
+
+//arrow function
+
+// empArray.forEach(employee => {
+//     if (employee.emp_salary >= 50000 && employee.emp_dept === "IT") {
+//         console.log(`Employee Name: ${employee.emp_name}`);
+//         console.log(`Company Name: ${employee.emp_company}`);
+//         console.log(`Salary: ${employee.emp_salary}`);
+//         console.log("----------------------");
+//     }
+// });
+
 console.log(`-------------------- Step VI ---------------------------`);
 
 for (const empInfy of empArray) {
@@ -191,3 +266,31 @@ for (const empInfy of empArray) {
 
     }
 }
+
+//for in
+// for (const index in empArray) {
+//     const employee = empArray[index];
+//     if (employee.emp_company === "Infy") {
+//         console.log("Employee Details:");
+//         console.log(`Employee ID: ${employee.emp_id}`);
+//         console.log(`Employee Name: ${employee.emp_name}`);
+//         console.log(`Employee Department: ${employee.emp_dept}`);
+//         console.log(`Employee Salary: ${employee.emp_salary}`);
+//         console.log(`Employee Company: ${employee.emp_company}`);
+//         console.log("----------------------");
+//     }
+// }
+
+
+//arrow function
+// empArray.forEach(employee => {
+//     if (employee.emp_company === "Infy") {
+//         console.log("Employee Details:");
+//         console.log(`Employee ID: ${employee.emp_id}`);
+//         console.log(`Employee Name: ${employee.emp_name}`);
+//         console.log(`Employee Department: ${employee.emp_dept}`);
+//         console.log(`Employee Salary: ${employee.emp_salary}`);
+//         console.log(`Employee Company: ${employee.emp_company}`);
+//         console.log("----------------------");
+//     }
+// });
