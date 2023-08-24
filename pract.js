@@ -34,15 +34,103 @@
 
 
 
-function show(){
+// function show(){
 
-    console.log(`Inide show`);
+//     console.log(`Inide show`);
+// }
+
+// show();
+
+// //self Invoking Function 
+
+// (function(){
+//     console.log(`Inside Display`);
+// })()
+
+
+// Create an array of 5 fruits
+const fruits = ["Parth", "Satya", "Dipak", "Akash", "Vijay"];
+
+// Create an array of numbers from 1 to 5
+const numbers = [1, 2, 3, 4, 5];
+
+// Function to shuffle an array using Fisher-Yates algorithm
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
 }
 
-show();
+// Shuffle both arrays
+shuffleArray(fruits);
+shuffleArray(numbers);
 
-//self Invoking Function 
 
-(function(){
-    console.log(`Inside Display`);
-})()
+
+
+// Create pairs of fruits and numbers
+const pairs = [];
+for (let i = 0; i < fruits.length; i++) {
+  pairs.push(`${fruits[i]}: ${numbers[i]}`);
+}
+
+// Join the pairs into a single string
+const output = pairs.join(', ');
+
+console.log(output);
+
+
+
+
+// USING FOR-OF LOOP
+
+// const fruits = ["Apple", "Banana", "Orange", "Grapes", "Mango"];
+// const numbers = [1, 2, 3, 4, 5];
+
+// function shuffleArray(array) {
+//   for (let i = array.length - 1; i > 0; i--) {
+//     const j = Math.floor(Math.random() * (i + 1));
+//     [array[i], array[j]] = [array[j], array[i]];
+//   }
+// }
+
+// shuffleArray(fruits);
+// shuffleArray(numbers);
+
+// const pairs = [];
+// let i = 0;
+
+// for (const fruit of fruits) {
+//   pairs.push(`${fruit}: ${numbers[i]}`);
+//   i++;
+// }
+
+// const output = pairs.join(', ');
+// console.log(output);
+
+// USING forEach loop
+
+// const fruits = ["Apple", "Banana", "Orange", "Grapes", "Mango"];
+// const numbers = [1, 2, 3, 4, 5];
+
+// function shuffleArray(array) {
+//   for (let i = array.length - 1; i > 0; i--) {
+//     const j = Math.floor(Math.random() * (i + 1));
+//     [array[i], array[j]] = [array[j], array[i]];
+//   }
+// }
+
+// shuffleArray(fruits);
+// shuffleArray(numbers);
+
+// const pairs = [];
+
+// fruits.forEach((fruit, index) => {
+//   pairs.push(`${fruit}: ${numbers[index]}`);
+// });
+
+// const output = pairs.join(', ');
+// console.log(output);
+
+
