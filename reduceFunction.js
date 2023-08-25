@@ -14,6 +14,7 @@ function shuffleArray(array) {
 }
 
 shuffleArray(friends);
+console.log();
 shuffleArray(numbers);
 
 
