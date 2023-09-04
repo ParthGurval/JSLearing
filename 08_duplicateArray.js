@@ -78,20 +78,20 @@
 
 
 
-let study = {
+// let study = {
 
-  sub1: "English",
-  sub2: "Maths",
-  sub3: "Social Science",
+//   sub1: "English",
+//   sub2: "Maths",
+//   sub3: "Social Science",
 
-}
+// }
 
-for (const key in study) {
-  if (Object.hasOwnProperty.call(study, key)) {
-    const element = study[key];
+// for (const key in study) {
+//   if (Object.hasOwnProperty.call(study, key)) {
+//     const element = study[key];
     
-    console.log(`${key},${element}`);
+//     console.log(`${key},${element}`);
     
-  }
-}
+//   }
+// }
 
