@@ -19,3 +19,13 @@ function inquire(){
 }
 
 greet(inquire)();
+
+
+
+console.log('----------------------------------------');
+
+const arrayNum = [75, 85, 62, 10, 1, 2, 20, 26, 23];
+
+const res = arrayNum.sort((a,b) => a-b);
+
+console.log(res);
