@@ -131,10 +131,17 @@ console.log(`-----------------------------------------------------------`);
 
 //4. Find out all the numbers which are multiple of 5 and log on console
 
-const multiNum = filterArray.filter((arrEle) => {
+// const multiNum = filterArray.filter((arrEle) => {
 
-    return arrEle % 5 ==0;
-});
+//     return arrEle % 5 ==0;
+// });
+
+// console.log(`The numbers which are multiple of 5 from array are:`, multiNum);
+
+const multiNum = filterArray.filter(arrEle =>
+
+     arrEle % 5 ==0 
+);
 
 console.log(`The numbers which are multiple of 5 from array are:`, multiNum);
 
